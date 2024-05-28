@@ -1,0 +1,13 @@
+.banner-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover
+}
+
+.h-banner{
+    height: calc(100vh - 72px);
+}
+
+.carousel-caption {
+    bottom:  calc((100vh - 100px) / 2);
+}
