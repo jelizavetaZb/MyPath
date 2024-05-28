@@ -1,6 +1,7 @@
 :root {
     --white:    #f7f7f7;
     --black:    #09090A;
+    --red:      #5D0303;
 }
 body{
     background-color: var(--white);
@@ -74,4 +75,8 @@ body.dark .toggler-dark  {
 }
 body.dark .toggler-light {
     display: none;
+}
+
+.text-red {
+    color:var(--red);
 }

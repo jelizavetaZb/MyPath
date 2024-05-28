@@ -22,3 +22,11 @@
 .toggler-btn img{
     height: 30px;
 }
+
+.mh-section-img {
+    max-height: 450px;
+}
+
+.my-section {
+    margin-top: 7rem !important;
+}
