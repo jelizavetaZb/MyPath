@@ -9,5 +9,16 @@
 }
 
 .carousel-caption {
-    bottom:  calc((100vh - 100px) / 2);
+    bottom:  calc((100vh) / 4 + 25px);
+}
+.h-logo{
+    height: 50px;
+}
+
+.toggler-btn {
+    background: transparent;
+    border: 0;
+}
+.toggler-btn img{
+    height: 30px;
 }

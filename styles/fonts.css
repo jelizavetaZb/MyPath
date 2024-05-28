@@ -2,14 +2,26 @@ body {
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;;
     font-style: normal;
+    font-weight: 500;
 }
 
-.h1 {
-    font-size: 64px;
+.font-1 {
+    font-size: 56px;
+}
+
+.font-2 {
+    font-size: 32px;
+}
+
+.font-3 {
+    font-size: 20px;
 }
 
 @media (max-width: 991.9px) { 
-   .h1 {
+   .font-1 {
         font-size: 40px;
+    }
+    .font-2 {
+        font-size: 24px;
     }
  }
