@@ -5,10 +5,15 @@
     --black:        #111111;
     --gray:         #f1eded;
 }
-body{
+
+.text-white {
+    color: var(--white);
+}
+
+body {
     background-color: var(--white);
 }
-body.dark{
+body.dark {
     background-color: var(--black);
 }
 
@@ -105,5 +110,12 @@ body.dark .section {
     border-bottom: solid var(--black);
 }
 body.dark .theme-boarder {
+    border-bottom: solid var(--white);
+}
+
+.bg-dark-nav {
+    background-color: var(--black-nav);
+}
+.theme-boarder-white {
     border-bottom: solid var(--white);
 }
