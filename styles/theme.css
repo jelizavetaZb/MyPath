@@ -1,7 +1,9 @@
 :root {
-    --white:    #f7f7f7;
-    --black:    #09090A;
-    --red:      #5D0303;
+    --white:        #f7f7f7;
+    --black-nav:    #09090A;
+    --red:          #9A0000;
+    --black:        #111111;
+    --gray:         #f1eded;
 }
 body{
     background-color: var(--white);
@@ -14,7 +16,7 @@ body.dark{
     background-color: var(--white);
 }
 body.dark .standart-bg {
-    background-color: var(--black);
+    background-color: var(--black-nav);
 }
 
 .standart-text{
@@ -79,4 +81,29 @@ body.dark .toggler-light {
 
 .text-red {
     color:var(--red);
+}
+
+.nav-btn-dark {
+    display: none;
+}
+body.dark .nav-btn-light  { 
+    display: none;
+}
+body.dark .nav-btn-dark {
+    display: block;
+}
+.section {
+    background-color: var(--white); 
+    background-image: linear-gradient(var(--white), var(--gray));   
+}
+body.dark .section {
+    background-color: var(--black); 
+    background-image: linear-gradient(var(--black), var(--black-nav));   
+}
+
+.theme-boarder {
+    border-bottom: solid var(--black);
+}
+body.dark .theme-boarder {
+    border-bottom: solid var(--white);
 }

@@ -14,24 +14,29 @@
     <link rel="stylesheet" href="styles/sizes.css">
 </head>
 <body class="">
-    <nav class="navbar navbar-expand-lg standart-bg">
+    <nav class="navbar navbar-expand-xl standart-bg">
         <div class="container py-2">
-          <a class="navbar-brand d-flex me-lg-5" href="#">
+          <a class="navbar-brand d-flex me-xl-5" href="#">
             <img class="h-logo logo-light" src="img/logo-black.png">
             <img class="h-logo logo-dark" src="img/logo-white.png">
             <div class="ms-3 font-2 standart-text">
                 MansCelš
             </div>
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
-            <span class="navbar-toggler-icon"></span>
+          <button type="button" class="toggler-btn my-auto d-xl-none">
+            <img class="toggler-light" src="img/toggler-light.png" />
+            <img class="toggler-dark" src="img/toggler-dark.png" />
+          </button>
+          <button class="navbar-toggler nav-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+            <img class="nav-btn-light" src="img/nav-black.png" />
+            <img class="nav-btn-dark" src="img/nav-white.png" />
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav font-3 ms-lg-5 d-flex">
-              <li class="nav-item px-lg-4">
+            <ul class="navbar-nav font-3 ms-xl-5 d-flex">
+              <li class="nav-item px-xl-4 my-auto">
                 <a class="nav-link" href="#ideja">Idejas apraksts</a>
               </li>
-              <li class="nav-item dropdown px-lg-4">
+              <li class="nav-item dropdown px-xl-4 my-auto">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Resursi >
                 </a>
@@ -58,14 +63,14 @@
                     </li>
                 </ul>
               </li>
-              <li class="nav-item px-lg-4 me-lg-5">
+              <li class="nav-item px-xl-4 me-xl-5 my-auto">
                 <a class="nav-link" href="#contact">Kontakti</a>
               </li>
-              <li class="px-lg-5 d-flex ms-lg-5">
+              <li class="px-xl-5 d-flex ms-xl-5 my-auto d-xl-block d-none">
                 <button type="button" class="toggler-btn my-auto">
                     <img class="toggler-light" src="img/toggler-light.png" />
                     <img class="toggler-dark" src="img/toggler-dark.png" />
-                  </button>
+                </button>
               </li>
             </ul>
           </div>
@@ -78,12 +83,12 @@
                 <img src="img/banner-dark.png" class="banner-img banner-dark">
                 <div class="overlay"></div>
                 <div class="container">
-                    <div class="carousel-caption text-start row-lg mb-5">
-                        <div class="col-lg-8">
+                    <div class="carousel-caption text-start row-xl mb-5">
+                        <div class="col-xl-8">
                             <div class="font-1 mb-2">
                                 Mans ceļš uz Latvijas Universitāti
                             </div>
-                            <div class="font-2">e-resursi kā LU mācību 
+                            <div class="font-2">> e-resursi kā LU mācību 
                                 vides virtuālā telpa
                             </div>
                         </div>
@@ -93,55 +98,169 @@
             </div>
         </div>
     </div>
-    <div id="ideja" class="my-section container">
-        <div class="font-2 standart-text text-center">
-            Idejas apraksts
-        </div>
-        <div class="font-3 text-red text-center">
-            e-resursi kā LU mācību vides virtuālā telpa
-        </div>
-        <div class="row my-5">
-            <div class="col-12 col-lg-6 d-flex">
-                <img src="img/ideja.png" class="img-fluid mh-section-img mx-auto"></ing>
+    <div id="ideja" class="section">
+        <div class="container pb-5">
+            <div class="font-2 standart-text text-center">
+                Idejas apraksts
             </div>
-            <div class="col-12 col-lg-6 standart-text my-auto">
-                <div class="my-4">
-                    <span class="text-red">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tristique senectus et netus. Tortor at risus viverra adipiscing at in tellus integer feugiat. 
-                    Nunc sed id semper risus. Eu sem integer vitae justo eget. Aliquet lectus proin nibh nisl condimentum. 
-                    Quis commodo odio aenean sed adipiscing diam. 
-                    Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis. 
-                    Malesuada fames ac turpis egestas integer eget aliquet nibh. In eu mi bibendum neque egestas congue quisque egestas. 
-                    Nec nam aliquam sem et tortor consequat.
+            <div class="font-3 text-red text-center">
+                > e-resursi kā LU mācību vides virtuālā telpa
+            </div>
+            <div class="row my-5">
+                <div class="col-12 col-xl-6 d-flex">
+                    <img src="img/ideja.png" class="img-fluid mh-section-img mx-auto"></ing>
+                </div>
+                <div class="col-12 col-xl-6 standart-text my-auto">
+                    <div class="my-4">
+                        <span class="text-red">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tristique senectus et netus. Tortor at risus viverra adipiscing at in tellus integer feugiat. 
+                        Nunc sed id semper risus. Eu sem integer vitae justo eget. Aliquet lectus proin nibh nisl condimentum. 
+                        Quis commodo odio aenean sed adipiscing diam. 
+                        Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis. 
+                        Malesuada fames ac turpis egestas integer eget aliquet nibh. In eu mi bibendum neque egestas congue quisque egestas. 
+                        Nec nam aliquam sem et tortor consequat.
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div id="contact" class="my-section container">
-        <div class="font-2 standart-text text-center">
-            Kontakti
-        </div>
-        <div class="font-3 text-red text-center">
-            nedaudz informācijas par mani
-        </div>
-        <div class="row my-5">
-            <div class="col-12 col-lg-6 standart-text my-auto">
-                <div class="my-4">Es esmu <span class="text-red">Jelizaveta Zabanova </span> un tas ir mana saite “Mans ceļš”."
-                    <br>
-                    <br>
-                    <span class="text-red">Mani kontankti:</span> <br>
-                    <span class="text-red">Epasts:</span> jz18005@edu.lu.lv<br>
-                    <span class="text-red">Talrunis:</span> +371 20000000<br>
-                    <span class="text-red">Facebook:</span> <a class="text-decoration-none standart-text" href="https://www.facebook.com/profile.php?id=100017661150917">> Click <</a><br>
-                    <span class="text-red">Studenta numurs ir:</span> jz21055<br>
-                    <span class="text-red">Univestite:</span>  LU, 3.kurss, Datorikas fak.<br>
-                    <span class="text-red">Darbs:</span> Unecos Solutions<br>
+    <div id="resursi" class="section">
+        <div class="container pb-5">
+            <div class="font-2 standart-text text-center">
+                Resursi
+            </div>
+            <div class="font-3 text-red text-center">
+                Resursi > e-resursi, kurus es izmantoju 
+            </div>
+            <div class="my-5">
+                <div class="row theme-boarder  my-5">
+                    <div class="col-12 col-xl-6 d-flex my-5">
+                        <img src="img/sek1.jpg" class="img-fluid mw-section-img mx-auto"></ing>
+                    </div>
+                    <div class="col-12 col-xl-6 standart-text my-auto">
+                        <div class="my-5 py-5">
+                            <div class="font-3 text-red text-center mb-3">
+                                Resursi > estudijas.lu.lv
+                            </div>
+                            <span class="text-red">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tristique senectus et netus. Tortor at risus viverra adipiscing at in tellus integer feugiat. 
+                            Nunc sed id semper risus. Eu sem integer vitae justo eget. Aliquet lectus proin nibh nisl condimentum. 
+                            Quis commodo odio aenean sed adipiscing diam. 
+                            Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis. 
+                            Malesuada fames ac turpis egestas integer eget aliquet nibh. In eu mi bibendum neque egestas congue quisque egestas. 
+                            Nec nam aliquam sem et tortor consequat.
+                        </div>
+                    </div>
+                </div>
+                <div class="row theme-boarder  my-5">
+                    <div class="col-12 col-xl-6 standart-text my-auto order-2 order-xl-1">
+                        <div class="my-5 py-5">
+                            <div class="font-3 text-red text-center  mb-3">
+                                Resursi > teams
+                            </div>
+                            <span class="text-red">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tristique senectus et netus. Tortor at risus viverra adipiscing at in tellus integer feugiat. 
+                            Nunc sed id semper risus. Eu sem integer vitae justo eget. Aliquet lectus proin nibh nisl condimentum. 
+                            Quis commodo odio aenean sed adipiscing diam. 
+                            Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis. 
+                            Malesuada fames ac turpis egestas integer eget aliquet nibh. In eu mi bibendum neque egestas congue quisque egestas. 
+                            Nec nam aliquam sem et tortor consequat.
+                        </div>
+                    </div>
+                    <div class="col-12 col-xl-6 d-flex my-5 order-1 order-xl-2">
+                        <img src="img/sek2.jpg" class="img-fluid mw-section-img mx-auto"></ing>
+                    </div>
+                </div>
+                <div class="row theme-boarder  my-5">
+                    <div class="col-12 col-xl-6 d-flex my-5">
+                        <img src="img/sek3.jpg" class="img-fluid mw-section-img mx-auto"></ing>
+                    </div>
+                    <div class="col-12 col-xl-6 standart-text my-auto">
+                        <div class="my-5 py-5">
+                            <div class="font-3 text-red text-center  mb-3">
+                                Resursi > e-resursi, kurus es izmantoju 
+                            </div>
+                            <span class="text-red">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tristique senectus et netus. Tortor at risus viverra adipiscing at in tellus integer feugiat. 
+                            Nunc sed id semper risus. Eu sem integer vitae justo eget. Aliquet lectus proin nibh nisl condimentum. 
+                            Quis commodo odio aenean sed adipiscing diam. 
+                            Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis. 
+                            Malesuada fames ac turpis egestas integer eget aliquet nibh. In eu mi bibendum neque egestas congue quisque egestas. 
+                            Nec nam aliquam sem et tortor consequat.
+                        </div>
+                    </div>
+                </div>
+                <div class="row theme-boarder  my-5">
+                    <div class="col-12 col-xl-6 standart-text my-auto  order-2 order-xl-1">
+                        <div class="my-5 py-5">
+                            <div class="font-3 text-red text-center mb-3">
+                                Resursi  > e-resursi, kurus es izmantoju 
+                            </div>
+                            <span class="text-red">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tristique senectus et netus. Tortor at risus viverra adipiscing at in tellus integer feugiat. 
+                            Nunc sed id semper risus. Eu sem integer vitae justo eget. Aliquet lectus proin nibh nisl condimentum. 
+                            Quis commodo odio aenean sed adipiscing diam. 
+                            Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis. 
+                            Malesuada fames ac turpis egestas integer eget aliquet nibh. In eu mi bibendum neque egestas congue quisque egestas. 
+                            Nec nam aliquam sem et tortor consequat.
+                        </div>
+                    </div>
+                    <div class="col-12 col-xl-6 d-flex my-5 order-1 order-xl-2">
+                        <img src="img/sek4.jpg" class="img-fluid mw-section-img mx-auto"></ing>
+                    </div>
+                </div>
+                <div class="row  my-5">
+                    <div class="col-12 col-xl-6 d-flex my-5">
+                        <img src="img/sek5.jpg" class="img-fluid mw-section-img mx-auto"></ing>
+                    </div>
+                    <div class="col-12 col-xl-6 standart-text my-auto">
+                        <div class="my-5 py-5">
+                            <div class="font-3 text-red text-center  mb-3">
+                                Resursi > e-resursi, kurus es izmantoju 
+                            </div>
+                            <span class="text-red">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tristique senectus et netus. Tortor at risus viverra adipiscing at in tellus integer feugiat. 
+                            Nunc sed id semper risus. Eu sem integer vitae justo eget. Aliquet lectus proin nibh nisl condimentum. 
+                            Quis commodo odio aenean sed adipiscing diam. 
+                            Ipsum nunc aliquet bibendum enim facilisis gravida neque convallis. 
+                            Malesuada fames ac turpis egestas integer eget aliquet nibh. In eu mi bibendum neque egestas congue quisque egestas. 
+                            Nec nam aliquam sem et tortor consequat.
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-6 d-flex">
-                <img src="img/me2.jpg" class="img-fluid mh-section-img mx-auto"></ing>
+        </div>
+    </div>
+    <div id="contact" class="section">
+        <div class="container pb-5">
+            <div class="font-2 standart-text text-center">
+                Kontakti
+            </div>
+            <div class="font-3 text-red text-center">
+               > nedaudz informācijas par mani
+            </div>
+            <div class="row my-5">
+                <div class="col-12 col-xl-6 standart-text my-auto">
+                    <div class="my-4">Es esmu <span class="text-red">Jelizaveta Zabanova </span> un tas ir mana saite “Mans ceļš”."
+                        <br>
+                        <br>
+                        <span class="text-red">Mani kontankti:</span> <br>
+                        <span class="text-red">Epasts:</span> jz18005@edu.lu.lv<br>
+                        <span class="text-red">Talrunis:</span> +371 20000000<br>
+                        <span class="text-red">Facebook:</span> <a class="text-decoration-none standart-text" href="https://www.facebook.com/profile.php?id=100017661150917">> Click <</a><br>
+                        <span class="text-red">Studenta numurs ir:</span> jz21055<br>
+                        <span class="text-red">Univestite:</span>  LU, 3.kurss, Datorikas fak.<br>
+                        <span class="text-red">Darbs:</span> Unecos Solutions<br>
+                    </div>
+                </div>
+                <div class="col-12 col-xl-6 d-flex">
+                    <img src="img/me2.jpg" class="img-fluid mh-section-img mx-auto"></ing>
+                </div>
             </div>
         </div>
+    </div>
+    <div id="footer" class="section">
+
     </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 <script>

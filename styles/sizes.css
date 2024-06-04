@@ -15,7 +15,7 @@
     height: 50px;
 }
 
-.toggler-btn {
+.toggler-btn, .nav-btn {
     background: transparent;
     border: 0;
 }
@@ -26,7 +26,10 @@
 .mh-section-img {
     max-height: 450px;
 }
-
-.my-section {
+.mw-section-img{
+    object-fit: cover;
+    max-width: 550px;
+}
+.section {
     margin-top: 7rem !important;
 }
